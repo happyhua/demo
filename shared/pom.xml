@@ -15,6 +15,12 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava-gwt</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.gwtproject</groupId>
+            <artifactId>gwt-servlet-jakarta</artifactId>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
     <build>

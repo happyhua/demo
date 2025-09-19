@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module>
+    <inherits name="com.demo.shared.Shared"/>
     <inherits name="com.google.common.collect.Collect"/>
     <inherits name="com.google.common.xml.Xml"/>
     <inherits name="org.dominokit.domino.ui.DominoUI"/>

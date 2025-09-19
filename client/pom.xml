@@ -13,15 +13,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.gwtproject</groupId>
-            <artifactId>gwt-user</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.gwtproject</groupId>
-            <artifactId>gwt-dev</artifactId>
-        </dependency>
-
-        <dependency>
             <groupId>${demo.groupId}</groupId>
             <artifactId>demo-shared</artifactId>
         </dependency>
@@ -29,6 +20,15 @@
             <groupId>${demo.groupId}</groupId>
             <artifactId>demo-shared</artifactId>
             <classifier>sources</classifier>
+        </dependency>
+
+        <dependency>
+            <groupId>org.gwtproject</groupId>
+            <artifactId>gwt-user</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.gwtproject</groupId>
+            <artifactId>gwt-dev</artifactId>
         </dependency>
 
         <dependency>
@@ -58,7 +58,6 @@
                     </compilerArgs>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
 </project>
